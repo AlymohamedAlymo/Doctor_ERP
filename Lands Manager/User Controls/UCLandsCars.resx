@@ -1,0 +1,1968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="radTextBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 540</value>
+  </data>
+  <data name="resource.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radSpinEditor15.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.Text2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radLabel81.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox32.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator4.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarSeparator, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor16.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadSpinEditor, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox34.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="commandBarButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;radLabel1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radCheckBox8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;radLabel71.Parent" xml:space="preserve">
+    <value>radSpinEditor18</value>
+  </data>
+  <data name="resource.Margin1" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radLabel72.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radTextBox32.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radSpinEditor15.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="radPageViewPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 568</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.PanelContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radLabel3.Text" xml:space="preserve">
+    <value>نسبة ضريبة المبيعات</value>
+  </data>
+  <data name="radBindingNavigator1.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;radBindingNavigator1.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radPageView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>859, 0</value>
+  </data>
+  <data name="radCheckBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 19</value>
+  </data>
+  <data name="&gt;&gt;radTextBox21.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="resource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radCheckBox13.Text" xml:space="preserve">
+    <value>تفعيل عمولة سعي</value>
+  </data>
+  <data name="&gt;&gt;radTextBox22.Name" xml:space="preserve">
+    <value>radTextBox22</value>
+  </data>
+  <data name="radLabel71.Text" xml:space="preserve">
+    <value>نسبة الضريبة المضافة</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox13.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;radTextBox1.Name" xml:space="preserve">
+    <value>radTextBox1</value>
+  </data>
+  <data name="gridViewDecimalColumn9.HeaderText" xml:space="preserve">
+    <value>discounttotal</value>
+  </data>
+  <data name="radLabel71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 3</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor15.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;radLabel1.Parent" xml:space="preserve">
+    <value>radSpinEditor14</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 729</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor16.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="radTextBox34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="gridViewTextBoxColumn16.HeaderText" xml:space="preserve">
+    <value>lastaction</value>
+  </data>
+  <data name="radSpinEditor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="resource.FlipText3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radCheckBox14.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="radTextBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radTextBox21.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox17.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;radTextBox19.Name" xml:space="preserve">
+    <value>radTextBox19</value>
+  </data>
+  <data name="GridViewLands.MasterTemplate.Caption" xml:space="preserve">
+    <value>الأصناف</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor19.Name" xml:space="preserve">
+    <value>radSpinEditor19</value>
+  </data>
+  <data name="resource.TextWrap6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="commandBarButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAHVJREFUKFOVkUEOgCAMBPFgfIEf8nt+jVd49u6t2m1ashKJMAmhXehwIP2xbvvt
+        ZQGZMntraD952QaDtTCyLgETgyzkbEjIg1hfWbcQF4/zyjyMvM6GhNhZYAcKZ91CJgTeGpEpr19uUr8M
+        gZcFZCKyeEuk9AD6tHycrInJpwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor19.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="gridViewDecimalColumn8.HeaderText" xml:space="preserve">
+    <value>vat</value>
+  </data>
+  <data name="resource.Padding2" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;radTextBox23.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="resource.Padding4" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.Padding5" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.Padding6" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.Padding7" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radSpinEditor17.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="gridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>northdesc</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.PanelContainer.Name" xml:space="preserve">
+    <value>radScrollablePanel1.PanelContainer</value>
+  </data>
+  <data name="radCheckBox14.Text" xml:space="preserve">
+    <value>ضريبة التصرفات العقارية</value>
+  </data>
+  <data name="&gt;&gt;radTextBox23.Name" xml:space="preserve">
+    <value>radTextBox23</value>
+  </data>
+  <data name="GridViewLands.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;radLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="commandBarButton3.AngleTransform" type="System.Single, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor17.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadSpinEditor, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox22.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radSpinEditor15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 235</value>
+  </data>
+  <data name="gridViewDecimalColumn3.HeaderText" xml:space="preserve">
+    <value>area</value>
+  </data>
+  <data name="radPageViewPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="radLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 3</value>
+  </data>
+  <data name="radSpinEditor14.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;commandBarStripElement1.Name" xml:space="preserve">
+    <value>commandBarStripElement1</value>
+  </data>
+  <data name="gridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>guid</value>
+  </data>
+  <data name="radCheckBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 313</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.Parent" xml:space="preserve">
+    <value>radScrollablePanel1.PanelContainer</value>
+  </data>
+  <data name="radLabel81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="&gt;&gt;radTextBox24.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radSpinEditor18.DecimalPlaces" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarSeparator, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radLabel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox13.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator3.Name" xml:space="preserve">
+    <value>commandBarSeparator3</value>
+  </data>
+  <data name="resource.KeyTip3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radLabel2.Text" xml:space="preserve">
+    <value>قيمة عمولة السعي</value>
+  </data>
+  <data name="radCheckBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 252</value>
+  </data>
+  <data name="&gt;&gt;radTextBox17.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.Name" xml:space="preserve">
+    <value>radScrollablePanel2</value>
+  </data>
+  <data name="radScrollablePanel2.PanelContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 303</value>
+  </data>
+  <data name="radTextBox23.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="radSpinEditor14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 174</value>
+  </data>
+  <data name="radSpinEditor17.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radTextBox22.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radSpinEditor1.DecimalPlaces" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radTextBox24.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radPageViewPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 568</value>
+  </data>
+  <data name="resource.AngleTransform2" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radTextBox24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 845</value>
+  </data>
+  <data name="commandBarButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAFNJREFUKFNjIAWIOnX/BwJGKJcBmU0yABmGbiDZAGYYVQxENowqBj568/0MWQZi
+        UwgTQzaUKgaCAMxQdHVAPiuUSRgAFTNBmWAAMhSLgRwIdQwMAEvFX0BzUja9AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.Name" xml:space="preserve">
+    <value>radScrollablePanel1</value>
+  </data>
+  <data name="radSpinEditor1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 0</value>
+  </data>
+  <data name="&gt;&gt;radTextBox20.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gridViewCheckBoxColumn1.HeaderText" xml:space="preserve">
+    <value>isworkfee</value>
+  </data>
+  <data name="radLabel72.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;commandBarRowElement1.Name" xml:space="preserve">
+    <value>commandBarRowElement1</value>
+  </data>
+  <data name="resource.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 3</value>
+  </data>
+  <data name="resource.DisplayName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;radCheckBox14.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="commandBarTextBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radSpinEditor17.DecimalPlaces" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;commandBarStripElement1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarStripElement, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radTextBox18.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;radLabel3.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radSpinEditor18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="radTextBox22.NullText" xml:space="preserve">
+    <value>ادخل سبب الحجز</value>
+  </data>
+  <data name="radSpinEditor14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 0</value>
+  </data>
+  <data name="&gt;&gt;commandBarStripElement2.Name" xml:space="preserve">
+    <value>commandBarStripElement2</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.PanelContainer.Name" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radSpinEditor18.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.TextOrientation3" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="resource.TextOrientation1" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="resource.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="resource.TextWrap1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.TextOrientation4" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="resource.TextOrientation5" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radScrollablePanel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radCheckBox8.Text" xml:space="preserve">
+    <value>تفعيل الضريبة المضافة</value>
+  </data>
+  <data name="radTextBox24.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radLabel81.Parent" xml:space="preserve">
+    <value>radSpinEditor1</value>
+  </data>
+  <data name="radTextBox20.NullText" xml:space="preserve">
+    <value>ادخل وصف الشرق</value>
+  </data>
+  <data name="&gt;&gt;radTextBox19.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="radTextBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 601</value>
+  </data>
+  <data name="radSpinEditor17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 357</value>
+  </data>
+  <data name="radSpinEditor19.DecimalPlaces" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radPageView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;tbLandBindingSource.Name" xml:space="preserve">
+    <value>tbLandBindingSource</value>
+  </data>
+  <data name="radTextBox1.NullText" xml:space="preserve">
+    <value>ادخل رقم الأرض</value>
+  </data>
+  <data name="radTextBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 723</value>
+  </data>
+  <data name="&gt;&gt;radTextBox24.Name" xml:space="preserve">
+    <value>radTextBox24</value>
+  </data>
+  <data name="gridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>southdesc</value>
+  </data>
+  <data name="GridViewLands.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarSeparator, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.KeyTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="radScrollablePanel2.PanelContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 0</value>
+  </data>
+  <data name="&gt;&gt;commandBarTextBox1.Name" xml:space="preserve">
+    <value>commandBarTextBox1</value>
+  </data>
+  <data name="radLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="radTextBox17.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton1.Name" xml:space="preserve">
+    <value>commandBarButton1</value>
+  </data>
+  <data name="radTextBox25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 906</value>
+  </data>
+  <data name="radSpinEditor16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 296</value>
+  </data>
+  <data name="commandBarButton2.AngleTransform" type="System.Single, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="commandBarStripElement1.DisplayName" xml:space="preserve">
+    <value>commandBarStripElement1</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor14.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;radLabel2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="GridViewLands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarButton, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2.Name" xml:space="preserve">
+    <value>radPageViewPage2</value>
+  </data>
+  <data name="resource.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radPageViewPage1.Text" xml:space="preserve">
+    <value>مرفقات</value>
+  </data>
+  <data name="&gt;&gt;radLabel71.Name" xml:space="preserve">
+    <value>radLabel71</value>
+  </data>
+  <data name="&gt;&gt;radTextBox17.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;radTextBox20.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="GridViewLands.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radLabel81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 3</value>
+  </data>
+  <data name="resource.AngleTransform3" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radTextBox23.NullText" xml:space="preserve">
+    <value>ادخل حالة الأرض</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox8.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radSpinEditor16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="radSpinEditor1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="radTextBox20.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="radSpinEditor19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 55</value>
+  </data>
+  <data name="commandBarLabel1.Text" xml:space="preserve">
+    <value>of 0</value>
+  </data>
+  <data name="gridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>landtype</value>
+  </data>
+  <data name="gridViewCheckBoxColumn2.HeaderText" xml:space="preserve">
+    <value>issalefee</value>
+  </data>
+  <data name="gridViewDecimalColumn10.HeaderText" xml:space="preserve">
+    <value>discounttotalvalue</value>
+  </data>
+  <data name="radTextBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 55</value>
+  </data>
+  <data name="commandBarButton2.SvgImageXml" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;svg width="20" height="8" viewBox="0, 0, 20, 8" id="Layer_1" data-name="Layer 1" xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1"&gt;
+  &lt;defs&gt;
+    &lt;style&gt;
+      .cls-1 {
+        fill: #f2f9ff;
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: #15428b;
+      }
+    &lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;g&gt;
+    &lt;polygon points="12,1 8,4.5 12,8 12,1" opacity="0.8" class="cls-1" style="fill:#F2F9FF;" /&gt;
+    &lt;polygon points="12,0 8,3.5 12,7 12,0" class="cls-2" style="fill:#15428B;" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="radScrollablePanel1.PanelContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;radLabel72.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="radLabel4.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radTextBox18.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="gridViewDecimalColumn11.HeaderText" xml:space="preserve">
+    <value>discountfee</value>
+  </data>
+  <data name="radCheckBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 19</value>
+  </data>
+  <data name="radScrollablePanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="resource.Margin4" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.TextWrap5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radTextBox20.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;radTextBox25.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radLabel2.Parent" xml:space="preserve">
+    <value>radSpinEditor15</value>
+  </data>
+  <data name="radBindingNavigator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 48</value>
+  </data>
+  <data name="&gt;&gt;radLabel81.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radCheckBox13.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="radScrollablePanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radCheckBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 374</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton2.Name" xml:space="preserve">
+    <value>commandBarButton2</value>
+  </data>
+  <data name="radSpinEditor18.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="commandBarButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAFVJREFUKFNjwAf+///PJOrU/R/KpRwADWQEGUg1Q5ENhBkKcjVYklyAbCAIAwEz
+        VIo8gGzYozffz1DNQJBhID5VDIQZBgIUhyGyYSAANJARysQCGBgATx1HTDoLVm8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="radTextBox25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 55</value>
+  </data>
+  <data name="&gt;&gt;radTextBox23.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radBindingNavigator1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="radSpinEditor15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 0</value>
+  </data>
+  <data name="radTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 52</value>
+  </data>
+  <data name="resource.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>east</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator4.Name" xml:space="preserve">
+    <value>commandBarSeparator4</value>
+  </data>
+  <data name="radTextBox32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 113</value>
+  </data>
+  <data name="&gt;&gt;radPageView1.Name" xml:space="preserve">
+    <value>radPageView1</value>
+  </data>
+  <data name="radCheckBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="radScrollablePanel1.PanelContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 729</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.PanelContainer.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadScrollablePanelContainer, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radSpinEditor14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="resource.KeyTip2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;radCheckBox13.Name" xml:space="preserve">
+    <value>radCheckBox13</value>
+  </data>
+  <data name="radTextBox24.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radTextBox23.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radLabel81.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="radScrollablePanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 303</value>
+  </data>
+  <data name="&gt;&gt;radLabel3.Name" xml:space="preserve">
+    <value>radLabel3</value>
+  </data>
+  <data name="radSpinEditor19.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 0</value>
+  </data>
+  <data name="radSpinEditor17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="&gt;&gt;GridViewLands.Name" xml:space="preserve">
+    <value>GridViewLands</value>
+  </data>
+  <data name="resource.AngleTransform7" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radSpinEditor15.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;commandBarTextBox1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radLabel1.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="radCheckBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 19</value>
+  </data>
+  <data name="&gt;&gt;radTextBox25.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 22</value>
+  </data>
+  <data name="&gt;&gt;radBindingNavigator1.Name" xml:space="preserve">
+    <value>radBindingNavigator1</value>
+  </data>
+  <data name="resource.FlipText6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radSpinEditor1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>eastdesc</value>
+  </data>
+  <data name="&gt;&gt;radLabel4.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radLabel3.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator5.Name" xml:space="preserve">
+    <value>commandBarSeparator5</value>
+  </data>
+  <data name="radTextBox19.NullText" xml:space="preserve">
+    <value>ادخل وصف الجنوب</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton5.Name" xml:space="preserve">
+    <value>commandBarButton5</value>
+  </data>
+  <data name="radTextBox34.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="gridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>west</value>
+  </data>
+  <data name="resource.Text4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GridViewLands.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radLabel72.Name" xml:space="preserve">
+    <value>radLabel72</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton4.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarButton, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.Text1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radScrollablePanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridViewDecimalColumn6.HeaderText" xml:space="preserve">
+    <value>salesfee</value>
+  </data>
+  <data name="gridViewCheckBoxColumn6.HeaderText" xml:space="preserve">
+    <value>isdiscountfee</value>
+  </data>
+  <data name="radPageView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 729</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.Margin7" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.TextWrap4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radLabel71.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radLabel1.Text" xml:space="preserve">
+    <value>المساحة</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor15.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;commandBarLabel1.Name" xml:space="preserve">
+    <value>commandBarLabel1</value>
+  </data>
+  <data name="radLabel4.Text" xml:space="preserve">
+    <value>نسبة ضريبة التصرفات العقارية</value>
+  </data>
+  <data name="&gt;&gt;GridViewLands.Parent" xml:space="preserve">
+    <value>radScrollablePanel1.PanelContainer</value>
+  </data>
+  <data name="gridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>westdesc</value>
+  </data>
+  <data name="radCheckBox13.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="radLabel81.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radCheckBox14.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;radTextBox18.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor18.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton6.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarButton, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox7.Name" xml:space="preserve">
+    <value>radCheckBox7</value>
+  </data>
+  <data name="radSpinEditor19.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;commandBarRowElement1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarRowElement, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox34.Name" xml:space="preserve">
+    <value>radTextBox34</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor18.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;radLabel2.Name" xml:space="preserve">
+    <value>radLabel2</value>
+  </data>
+  <data name="radScrollablePanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radSpinEditor18.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 0</value>
+  </data>
+  <data name="&gt;&gt;radTextBox1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="commandBarButton4.AngleTransform" type="System.Single, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="radScrollablePanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 729</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox14.Name" xml:space="preserve">
+    <value>radCheckBox14</value>
+  </data>
+  <data name="&gt;&gt;radLabel72.Parent" xml:space="preserve">
+    <value>radSpinEditor19</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor15.Name" xml:space="preserve">
+    <value>radSpinEditor15</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator3.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarSeparator, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radLabel4.Parent" xml:space="preserve">
+    <value>radSpinEditor17</value>
+  </data>
+  <data name="&gt;&gt;commandBarStripElement2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarStripElement, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radTextBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 55</value>
+  </data>
+  <data name="&gt;&gt;radTextBox24.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="radTextBox17.NullText" xml:space="preserve">
+    <value>ادخل رقم البلوك</value>
+  </data>
+  <data name="radSpinEditor16.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radTextBox25.Name" xml:space="preserve">
+    <value>radTextBox25</value>
+  </data>
+  <data name="radTextBox34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 113</value>
+  </data>
+  <data name="GridViewLands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 426</value>
+  </data>
+  <data name="&gt;&gt;commandBarLabel1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radLabel72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 3</value>
+  </data>
+  <data name="&gt;&gt;radBindingNavigator1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radCheckBox8.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="gridViewCheckBoxColumn4.HeaderText" xml:space="preserve">
+    <value>isvat</value>
+  </data>
+  <data name="&gt;&gt;GridViewLands.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radLabel71.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="radTextBox34.NullText" xml:space="preserve">
+    <value>ادخل رقم الصك</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox13.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadCheckBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="commandBarButton6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAALCAYAAACQy8Z9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAGNJREFUOE9jwAb+///PCGUyKLi3lok6df+HYagwCgCqZ4YycQNkQ4kBRKkHKUJ2
+        HS4MVU4cINWlRAGYodhcB8NghaQAZEPx0SSBEW4oDBAyFGY5SQCkGRcGyQMNlQArRAEMDABWyH7Q38Bk
+        9wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="radTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="commandBarButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAG1JREFUKFNjQAf//v0TFnXq/g/lwgG62P///xmhTPwAaKAQSDO6AehiRBsIVKgA
+        04xsADYxogDQQH5kzTADsIkRBYAGsiJrfPTm+xmQODYxogDQQGZsGskyDARAgY1NI1mGgQDIQGwaiTOM
+        gQEAolB25S2tSOgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor19.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="resource.FlipText7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="radTextBox22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 784</value>
+  </data>
+  <data name="gridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>north</value>
+  </data>
+  <data name="gridViewDecimalColumn5.HeaderText" xml:space="preserve">
+    <value>workfee</value>
+  </data>
+  <data name="radSpinEditor15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="radLabel72.Text" xml:space="preserve">
+    <value>الإجمالي</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor18.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadSpinEditor, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radSpinEditor17.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radTextBox23.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dbDataSet.Name" xml:space="preserve">
+    <value>dbDataSet</value>
+  </data>
+  <data name="&gt;&gt;materialTheme1.Name" xml:space="preserve">
+    <value>materialTheme1</value>
+  </data>
+  <data name="radLabel71.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;radTextBox32.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="resource.Margin3" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadSpinEditor, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radTextBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="radSpinEditor16.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radTextBox20.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor14.Name" xml:space="preserve">
+    <value>radSpinEditor14</value>
+  </data>
+  <data name="GridViewLands.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="commandBarButton6.SvgImageXml" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;svg width="21" height="11" viewBox="0, 0, 21, 11" id="Layer_1" data-name="Layer 1" xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1"&gt;
+  &lt;defs&gt;
+    &lt;style&gt;
+      .cls-1 {
+        fill: #1e4489;
+      }
+    &lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;g&gt;
+    &lt;rect x="9" width="3" height="1" class="cls-1" style="fill:#1E4489;" /&gt;
+    &lt;rect x="6" y="2" width="9" height="1" class="cls-1" style="fill:#1E4489;" /&gt;
+    &lt;path d="M12 4 L7 4 L7 11 L14 11 L14 4 L12 4 z M9 10 L8 10 L8 5 L9 5 z M11 10 L10 10 L10 5 L11 5 z M13 10 L12 10 L12 5 L13 5 z" class="cls-1" style="fill:#1E4489;" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="resource.Margin6" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radTextBox34.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 3</value>
+  </data>
+  <data name="gridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>deednumber</value>
+  </data>
+  <data name="radTextBox21.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridViewDecimalColumn4.HeaderText" xml:space="preserve">
+    <value>amount</value>
+  </data>
+  <data name="&gt;&gt;GridViewLands.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadGridView, Telerik.WinControls.GridView, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UCLandsCars</value>
+  </data>
+  <data name="&gt;&gt;radTextBox19.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;radTextBox19.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="gridViewDecimalColumn13.HeaderText" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadScrollablePanel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;dbDataSet.Type" xml:space="preserve">
+    <value>DoctorERP.dbDataSet, dbDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor19.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadSpinEditor, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="commandBarButton3.SvgImageXml" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;svg width="20" height="8" viewBox="0, 0, 20, 8" id="Layer_1" data-name="Layer 1" xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1"&gt;
+  &lt;defs&gt;
+    &lt;style&gt;
+      .cls-1 {
+        fill: #f2f9ff;
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: #15428b;
+      }
+    &lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;g&gt;
+    &lt;polygon points="8,1 12,4.5 8,8 8,1" opacity="0.8" class="cls-1" style="fill:#F2F9FF;" /&gt;
+    &lt;polygon points="8,0 12,3.5 8,7 8,0" class="cls-2" style="fill:#15428B;" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="radTextBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 55</value>
+  </data>
+  <data name="radCheckBox7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radTextBox17.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage1.Parent" xml:space="preserve">
+    <value>radPageView1</value>
+  </data>
+  <data name="&gt;&gt;radTextBox18.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="resource.Text5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gridViewDecimalColumn2.HeaderText" xml:space="preserve">
+    <value>number</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox22.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox20.Name" xml:space="preserve">
+    <value>radTextBox20</value>
+  </data>
+  <data name="radLabel81.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor15.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadSpinEditor, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="gridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+    <value>reservereason</value>
+  </data>
+  <data name="radSpinEditor15.DecimalPlaces" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radLabel81.Text" xml:space="preserve">
+    <value>قيمة الأرض</value>
+  </data>
+  <data name="radSpinEditor19.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radTextBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 55</value>
+  </data>
+  <data name="resource.DisplayName2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.DisplayName3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radLabel3.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox8.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadCheckBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.TextOrientation6" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.AngleTransform4" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radTextBox18.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radSpinEditor17.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 0</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor14.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadSpinEditor, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radSpinEditor14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radPageViewPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="radSpinEditor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 174</value>
+  </data>
+  <data name="&gt;&gt;tbLandTableAdapter.Name" xml:space="preserve">
+    <value>tbLandTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox7.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radTextBox19.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarButton, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.AngleTransform1" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radTextBox22.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage1.Name" xml:space="preserve">
+    <value>radPageViewPage1</value>
+  </data>
+  <data name="radTextBox22.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor17.Name" xml:space="preserve">
+    <value>radSpinEditor17</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton3.Name" xml:space="preserve">
+    <value>commandBarButton3</value>
+  </data>
+  <data name="radTextBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 662</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton4.Name" xml:space="preserve">
+    <value>commandBarButton4</value>
+  </data>
+  <data name="radSpinEditor18.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="resource.Text7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radScrollablePanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="radCheckBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="radLabel72.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.ToolTipText1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;commandBarButton3.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarButton, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radPageView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radCheckBox7.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="resource.ToolTipText3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ToolTipText2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radTextBox32.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.PanelContainer.Parent" xml:space="preserve">
+    <value>radScrollablePanel1</value>
+  </data>
+  <data name="&gt;&gt;radTextBox34.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox14.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="resource.AngleTransform6" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator2.Name" xml:space="preserve">
+    <value>commandBarSeparator2</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor18.Name" xml:space="preserve">
+    <value>radSpinEditor18</value>
+  </data>
+  <data name="&gt;&gt;radTextBox17.Name" xml:space="preserve">
+    <value>radTextBox17</value>
+  </data>
+  <data name="resource.Padding1" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.PanelContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radTextBox23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 784</value>
+  </data>
+  <data name="radCheckBox13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;radTextBox1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radTextBox18.Name" xml:space="preserve">
+    <value>radTextBox18</value>
+  </data>
+  <data name="radTextBox32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="&gt;&gt;materialTheme1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.Themes.MaterialTheme, Telerik.WinControls.Themes.Material, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox7.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadCheckBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radCheckBox14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radLabel2.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="radSpinEditor14.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridViewDecimalColumn12.HeaderText" xml:space="preserve">
+    <value>discountfeevalue</value>
+  </data>
+  <data name="commandBarButton4.SvgImageXml" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;svg width="20" height="8" viewBox="0, 0, 20, 8" id="Layer_1" data-name="Layer 1" xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1"&gt;
+  &lt;defs&gt;
+    &lt;style&gt;
+      .cls-1 {
+        fill: #f2f9ff;
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: #15428b;
+      }
+    &lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;g&gt;
+    &lt;polygon points="10,1 14,4.5 10,8 10,1" opacity="0.8" class="cls-1" style="fill:#F2F9FF;" /&gt;
+    &lt;polygon points="10,0 14,3.5 10,7 10,0" class="cls-2" style="fill:#15428B;" /&gt;
+  &lt;/g&gt;
+  &lt;g&gt;
+    &lt;polygon points="5,1 9,4.5 5,8 5,1" opacity="0.8" class="cls-1" style="fill:#F2F9FF;" /&gt;
+    &lt;polygon points="5,0 9,3.5 5,7 5,0" class="cls-2" style="fill:#15428B;" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor1.Name" xml:space="preserve">
+    <value>radSpinEditor1</value>
+  </data>
+  <data name="radLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 3</value>
+  </data>
+  <data name="&gt;&gt;radLabel81.Name" xml:space="preserve">
+    <value>radLabel81</value>
+  </data>
+  <data name="resource.DisplayName1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radSpinEditor1.ThousandsSeparator" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="commandBarButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAKRJREFUOE+1kl0KwjAQhFNF9AJeyIdepkfxzon7hQmk6SYNqB8MbPdnMg8NM6SU
+        rkif3xFj3GqpvcP6d5VjSIXJ8/VOiNpLav1V5ZhZQ+s9VPpwVOQZFmmd/ZvKIxy1qg1bcdM1tMHCUjE4
+        E7tKe5HFHoY/NQSWWtUGrbgxwyUf99CrWRw5ibK07mMLh1d6hhqP+Yeh+3NiUkvtc7yEBVLNJQvhA37Z
+        UVPRfbp0AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;radLabel71.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.FlipText2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radLabel1.Name" xml:space="preserve">
+    <value>radLabel1</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="radSpinEditor19.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="radSpinEditor16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 20, 5, 0</value>
+  </data>
+  <data name="radTextBox24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 55</value>
+  </data>
+  <data name="radLabel72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="radLabel71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="gridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>blocknumber</value>
+  </data>
+  <data name="&gt;&gt;radTextBox34.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor16.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radSpinEditor19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 479</value>
+  </data>
+  <data name="resource.RightToLeft4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.RightToLeft5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.RightToLeft6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.RightToLeft7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.RightToLeft1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.RightToLeft2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.RightToLeft3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox8.Name" xml:space="preserve">
+    <value>radCheckBox8</value>
+  </data>
+  <data name="radSpinEditor14.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="resource.TextWrap3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radLabel4.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="gridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>status</value>
+  </data>
+  <data name="radTextBox25.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="radCheckBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 19</value>
+  </data>
+  <data name="&gt;&gt;radPageView1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageView, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radTextBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 52</value>
+  </data>
+  <data name="&gt;&gt;radTextBox25.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="resource.AngleTransform5" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radCheckBox7.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton5.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarButton, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;tbLandTableAdapter.Type" xml:space="preserve">
+    <value>DoctorERP.dbDataSetTableAdapters.tbLandTableAdapter, dbDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="radTextBox25.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radSpinEditor16.DecimalPlaces" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radBindingNavigator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radTextBox18.NullText" xml:space="preserve">
+    <value>ادخل وصف الشمال</value>
+  </data>
+  <data name="radTextBox21.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="radSpinEditor18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 418</value>
+  </data>
+  <data name="&gt;&gt;radTextBox32.Name" xml:space="preserve">
+    <value>radTextBox32</value>
+  </data>
+  <data name="radPageView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.FlipText4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbLandBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadScrollablePanel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.Text3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radTextBox1.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel1.PanelContainer.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadScrollablePanelContainer, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="GridViewLands.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.FlipText1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radCheckBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator1.Name" xml:space="preserve">
+    <value>commandBarSeparator1</value>
+  </data>
+  <data name="resource.Text6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radBindingNavigator1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadBindingNavigator, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radLabel2.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;radTextBox32.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTextBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radLabel4.Name" xml:space="preserve">
+    <value>radLabel4</value>
+  </data>
+  <data name="commandBarRowElement1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor17.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radSpinEditor16.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="resource.Margin5" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radTextBox23.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radCheckBox8.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="radSpinEditor14.DecimalPlaces" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="commandBarStripElement2.DisplayName" xml:space="preserve">
+    <value>commandBarStripElement2</value>
+  </data>
+  <data name="radTextBox21.NullText" xml:space="preserve">
+    <value>ادخل وصف الغرب</value>
+  </data>
+  <data name="radPageViewPage2.Text" xml:space="preserve">
+    <value>سجل تعديل الأسعار</value>
+  </data>
+  <data name="resource.TextOrientation7" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor17.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;radLabel3.Parent" xml:space="preserve">
+    <value>radSpinEditor16</value>
+  </data>
+  <data name="&gt;&gt;commandBarButton6.Name" xml:space="preserve">
+    <value>commandBarButton6</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor1.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="radTextBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="gridViewCheckBoxColumn5.HeaderText" xml:space="preserve">
+    <value>isdiscounttotal</value>
+  </data>
+  <data name="radTextBox24.NullText" xml:space="preserve">
+    <value>ادخل الملاحظات ان وجدت</value>
+  </data>
+  <data name="resource.KeyTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;radCheckBox7.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor14.Parent" xml:space="preserve">
+    <value>radScrollablePanel2.PanelContainer</value>
+  </data>
+  <data name="resource.Margin2" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radScrollablePanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.TextOrientation2" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radCheckBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>689, 435</value>
+  </data>
+  <data name="&gt;&gt;radScrollablePanel2.PanelContainer.Parent" xml:space="preserve">
+    <value>radScrollablePanel2</value>
+  </data>
+  <data name="&gt;&gt;radCheckBox14.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadCheckBox, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="commandBarButton1.AngleTransform" type="System.Single, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="gridViewDecimalColumn7.HeaderText" xml:space="preserve">
+    <value>buildingfee</value>
+  </data>
+  <data name="&gt;&gt;radPageViewPage2.Parent" xml:space="preserve">
+    <value>radPageView1</value>
+  </data>
+  <data name="&gt;&gt;radLabel72.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gridViewDecimalColumn1.HeaderText" xml:space="preserve">
+    <value>code</value>
+  </data>
+  <data name="gridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>south</value>
+  </data>
+  <data name="&gt;&gt;radLabel71.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="resource.TextWrap7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="commandBarButton5.SvgImageXml" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;svg width="20" height="14" viewBox="0, 0, 20, 14" id="Layer_1" data-name="Layer 1" xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1"&gt;
+  &lt;defs&gt;
+    &lt;style&gt;
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #1e4489;
+      }
+    &lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;g&gt;
+    &lt;polygon points="16,5 12,5 12,1 8,1 8,5 4,5 4,9 8,9 8,13 12,13 12,9 16,9 16,5" opacity="0.5" class="cls-1" style="fill:white;" /&gt;
+    &lt;polygon points="15,6 11,6 11,2 9,2 9,6 5,6 5,8 9,8 9,12 11,12 11,8 15,8 15,6" class="cls-2" style="fill:#1E4489;" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="gridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value>note</value>
+  </data>
+  <data name="gridViewCheckBoxColumn3.HeaderText" xml:space="preserve">
+    <value>isbuildingfee</value>
+  </data>
+  <data name="&gt;&gt;radLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radTextBox32.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="commandBarButton5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 0</value>
+  </data>
+  <data name="radLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="radCheckBox7.Text" xml:space="preserve">
+    <value>تفعيل ضريبة المبيعات</value>
+  </data>
+  <data name="&gt;&gt;radPageView1.Parent" xml:space="preserve">
+    <value>radScrollablePanel1.PanelContainer</value>
+  </data>
+  <data name="radScrollablePanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 426</value>
+  </data>
+  <data name="radLabel1.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.TextWrap2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;commandBarSeparator5.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.CommandBarSeparator, Telerik.WinControls.UI, Version=2023.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="radTextBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;radSpinEditor16.Name" xml:space="preserve">
+    <value>radSpinEditor16</value>
+  </data>
+  <data name="radCheckBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="resource.Alignment3" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="resource.Alignment2" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="resource.Alignment1" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;radTextBox21.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="resource.Alignment7" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="resource.Alignment6" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="resource.Alignment5" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="resource.Alignment4" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radTextBox32.NullText" xml:space="preserve">
+    <value>ادخل نوع الأرض</value>
+  </data>
+  <data name="resource.TextWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radTextBox22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 55</value>
+  </data>
+  <data name="&gt;&gt;radTextBox21.Name" xml:space="preserve">
+    <value>radTextBox21</value>
+  </data>
+  <data name="commandBarButton1.SvgImageXml" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;svg width="20" height="8" viewBox="0, 0, 20, 8" id="Layer_1" data-name="Layer 1" xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1"&gt;
+  &lt;defs&gt;
+    &lt;style&gt;
+      .cls-1 {
+        fill: #f2f9ff;
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: #15428b;
+      }
+    &lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;g&gt;
+    &lt;polygon points="9,1 5,4.5 9,8 9,1" opacity="0.8" class="cls-1" style="fill:#F2F9FF;" /&gt;
+    &lt;polygon points="9,0 5,3.5 9,7 9,0" class="cls-2" style="fill:#15428B;" /&gt;
+  &lt;/g&gt;
+  &lt;g&gt;
+    &lt;polygon points="14,1 10,4.5 14,8 14,1" opacity="0.8" class="cls-1" style="fill:#F2F9FF;" /&gt;
+    &lt;polygon points="14,0 10,3.5 14,7 14,0" class="cls-2" style="fill:#15428B;" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="radTextBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="resource.Padding3" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.FlipText5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar-EG</value>
+  </metadata>
+  <metadata name="dbDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>156, 17</value>
+  </metadata>
+  <metadata name="tbLandTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>432, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbLandBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>264, 17</value>
+  </metadata>
+  <metadata name="materialTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
